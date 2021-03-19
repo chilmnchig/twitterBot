@@ -35,4 +35,4 @@ else:
     diff_file.writelines(title)
     diff_file.close()
     t.statuses.update(
-        status="【幅Bot】{}\n{}".format(title, url))
+        status="【更新Bot】{}\n{}".format(title, url))
